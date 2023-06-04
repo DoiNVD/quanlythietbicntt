@@ -1,0 +1,8 @@
+# Ingore public path
+public
+
+# Ignore node_module path
+node_module/**
+
+# Ignore all HTML files
+*.md
