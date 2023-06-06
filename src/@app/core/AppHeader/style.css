@@ -1,0 +1,24 @@
+.wrapper-header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.ant-dropdown-trigger {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header-account {
+  display: flex;
+  align-items: center;
+}
+
+.header-account .userName {
+  margin-right: 10px;
+}

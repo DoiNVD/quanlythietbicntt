@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+/* .wrapper-left {
+  flex: 25%;
+  height: 100%;
+}
+.main-sidebar{
+    background-color: red;
+    height: 100%;
+} */
+.wrapper-left {
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+
+.main-sidebar {
+  height: 100%;
+}
+.wrapper-right {
+  flex: 75%;
+  height: 100%;
+}
+
+/* .main-header {
+  background-color: green;
+  height: 30%;
+} */
+
+/* .main-content {
+  background-color: yellow;
+  height: 70%;
+} */

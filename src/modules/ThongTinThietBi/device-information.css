@@ -1,0 +1,26 @@
+.device-information-wrapper{
+    padding: 20px;
+}
+
+.wrapper-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.tools-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.page-title {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+.tools-wrapper .tool-item{
+   margin: 0px 5px;
+}
