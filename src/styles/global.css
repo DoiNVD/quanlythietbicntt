@@ -1,15 +1,46 @@
 .d-flex {
-    display: flex;
-  }
-  
-  .align-items-center {
-    align-items: center;
-  }
-  
-  .mr-1 {
-    margin-right: 10px;
-  }
-  
-  .mr-2 {
-    margin-right: 20px;
-  }
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mr-1 {
+  margin-right: 10px;
+  /* font-family: 'Inter';
+  font-style: normal;
+  line-height: 23px;
+  align-items: center; */
+  color: #000000;
+}
+
+.mt-2 {
+  margin-right: 20px;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-tbody >tr >th, :where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-tbody >tr >td {
+  /* border-bottom: 1px solid #f0f0f0; */
+  border: 1px solid #CCCCCC;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-thead >tr>td {
+  position: relative;
+  font-weight: 600;
+  text-align: center;
+  background: #1677ff;
+  border-bottom: 0px;
+  transition: background 0.2s ease;
+  color: #FFFFFF;
+
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+align-items: center;
+
+
+
+}

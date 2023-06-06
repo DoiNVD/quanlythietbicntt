@@ -3,11 +3,12 @@ import { Select } from 'antd';
 const FilterUnit = () => {
   return (
     <div className="filter-unit d-flex align-items-center">
-      <div className="">Đơn vị</div>
+      <div className="filter-label mr-1">Hệ Thống:</div>
       <Select
+        placeholder="chọn hệ thống"
         labelInValue
-        defaultValue={{ value: 'lucy', label: 'Lucy (101)' }}
-        style={{ width: 120 }}
+        // defaultValue={{ value: 'lucy', label: 'Lucy (101)' }}
+        style={{ width: 203 }}
         options={[
           {
             value: 'jack',
