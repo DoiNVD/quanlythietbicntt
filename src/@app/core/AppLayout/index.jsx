@@ -1,8 +1,7 @@
 import AppSidebar from '../AppSidebar';
 import AppHeader from '../AppHeader';
 import AppFooter from '../AppFooter';
-
-import './style.css';
+import '../style.css';
 
 const AppLayout = ({ children }) => {
   return (
@@ -14,7 +13,6 @@ const AppLayout = ({ children }) => {
       <div className="wrapper-right">
         <AppHeader className="main-header" />
         <div className="main-content">{children}</div>
-        <AppFooter className="main-footer" />
       </div>
     </div>
   );

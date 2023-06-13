@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import Dashboard from '../../pages/dashboard';
 import DanhMuc from '../../pages/danhmuc';
-import ThongTinThietBi from '../../pages/thongtinthietbi';
+import Thietbi from '../../pages/thietbi';
 
 const RoutesConst = createBrowserRouter([
   {
@@ -9,12 +9,12 @@ const RoutesConst = createBrowserRouter([
     element: <Dashboard />,
   },
   {
-    path: '/danhmuc',
+    path: '/danh-muc',
     element: <DanhMuc />,
   },
   {
-    path: '/thongtinthietbi',
-    element: <ThongTinThietBi />,
+    path: '/thiet-bi',
+    element: <Thietbi />,
   },
 ]);
 

@@ -1,4 +1,4 @@
-import './navigation.css';
+import '../style.css';
 import {
   AppstoreOutlined,
   ContainerOutlined,
@@ -8,9 +8,11 @@ import {
   MenuUnfoldOutlined,
   PieChartOutlined,
 } from '@ant-design/icons';
+import { Button } from 'antd';
 import { Menu } from 'antd';
 import { useState } from 'react';
 import MenuConst from '../../../shared/constants/MenuConst';
+import logo from '../../../public/images/logo.jpg';
 
 const Navigation = () => {
   const [collapsed, setCollapsed] = useState(false);
@@ -19,12 +21,17 @@ const Navigation = () => {
     setCollapsed(!collapsed);
   };
   return (
-    <div>
-      <div className="navigation-wrapper">
+    <>
+      <div className="sidebar-logo">
         <div onClick={toggleCollapsed} className="navigation-logo">
           {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
         </div>
-        {!collapsed ? <div>THACO INDUSTRIES</div> : null}
+        {/* Ẩn thẻ h1 khi collapsed là true */}
+        {!collapsed ? (
+          <div className="logo-home">
+            <img src={logo} alt="" />
+          </div>
+        ) : null}
       </div>
       <Menu
         defaultSelectedKeys={['1']}
@@ -32,8 +39,9 @@ const Navigation = () => {
         mode="inline"
         inlineCollapsed={collapsed}
         items={MenuConst}
+        className="sidebar-menu"
       />
-    </div>
+    </>
   );
 };
 

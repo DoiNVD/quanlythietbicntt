@@ -19,28 +19,31 @@
   margin-right: 20px;
 }
 
-:where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-tbody >tr >th, :where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-tbody >tr >td {
+:where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-tbody > tr > th,
+:where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-tbody > tr > td {
   /* border-bottom: 1px solid #f0f0f0; */
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
 }
 
-:where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-thead >tr>td {
+:where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-thead > tr > th,
+:where(.css-dev-only-do-not-override-k7429z).ant-table-wrapper .ant-table-thead > tr > td {
   position: relative;
   font-weight: 600;
   text-align: center;
   background: #1677ff;
   border-bottom: 0px;
   transition: background 0.2s ease;
-  color: #FFFFFF;
+  color: #ffffff;
 
   font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
 
-align-items: center;
+  align-items: center;
+}
 
-
-
+.ant-menu-light.ant-menu-root.ant-menu-vertical, :where(.css-dev-only-do-not-override-k7429z).ant-menu-light>.ant-menu.ant-menu-root.ant-menu-vertical {
+  border-inline-end: 0px solid rgba(5, 5, 5, 0.06);
 }
